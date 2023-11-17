@@ -1,0 +1,7 @@
+[
+  { "id": 1, "nombre": "Eneko", "apellido": "Arriola" },
+  { "id": 2, "nombre": "Amaia", "apellido": "Etxeberria" },
+  { "id": 3, "nombre": "Iker", "apellido": "Aramendi" },
+  { "id": 4, "nombre": "Leire", "apellido": "Ugarte" },
+  { "id": 5, "nombre": "Unai", "apellido": "Zubizarreta" }
+]

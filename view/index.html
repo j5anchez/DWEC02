@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Tarea Evaluativa DWEC02</title>
+</head>
+<body>
+    <h1>Tarea Evaluativa DWEC02</h1>
+    <hr>
+    <h2>Ejercicio 1 - Añadir Socios</h2>
+    <div id="contAniadirSocio">
+        <form id="formNombre">
+            <label for="fnombre">Nombre:</label><br>
+            <input type="text" id="fnombre" name="nombre" value="Joseba"><br>
+            <label for="fapellido">Apellido:</label><br>
+            <input type="text" id="fapellido" name="apellido" value="Sánchez"><br><br>
+            <input type="button" id="butAniadirSocio" value="Añadir">
+        </form>
+    </div>
+    <hr>
+    <h2>Ejercicio 2 - Pintar socios en la Web</h2>
+    <div id="contenedorBotonSocios">
+        <input type="button" id="butPintarSocios" value="Pintar Lista Socios">
+    </div>
+    <div id="contenedorPintarSocios"></div>
+    <hr>
+    <script type="module" src="../controller/sociosController.js"></script>
+    <script type="module" src="../model/sociosModel.js"></script>
+    <script type="module" src="../view/sociosView.js"></script>
+</body>
+</html>
